@@ -1,0 +1,251 @@
+/*Colors and fonts*/
+
+body {
+	background: rgb(244, 241, 235);
+	color: rgb(13, 82, 87);
+}
+
+p {
+	font-size: 20px;
+	font-weight: 100;
+	color: rgb(15, 115, 122);
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: Lato;
+	
+
+}
+
+@font-face{
+	font-family: Lato;
+	src:url(Lato-Bold.ttf);
+
+}
+
+a{
+	text-decoration: none;
+	color: rgb(15, 115, 122);
+}
+a:hover {
+	color: rgb(235, 53, 85);
+}
+
+
+/* Custom design with class*/
+
+
+
+.div-card {
+	background: rgb(229, 227, 222);
+	padding: 50px;
+	margin: 50px 0px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	text-align: center;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	transition: 0.3;
+}
+
+.row {
+	display: inline-flex;
+	
+}
+
+.column{
+	margin-inline: 10px;
+}
+
+.photo_voyages1 {
+	display: inline-flex;
+	margin-top: 60px;
+}
+
+
+.photo_voyages2 {
+	display: inline-flex;
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+.photo_voyage {
+	text-shadow: 0px 10px 30px rgba(0, 0, 0, 2);
+}
+
+.card_movies_container {
+	display: flex;
+	justify-content: center;
+
+}
+
+.card {
+	background: rgb(216, 215, 210) ;
+	width: 500px;
+	height: 700px;
+	margin: 15px;
+	border-radius: 15px;
+
+}
+
+.card-image {
+	height: 300px;
+	background-size: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.movies-text {
+	font-size: 15px;
+	margin: 10px;
+}
+
+.container_div {
+	width: 800px;
+	margin: 40px auto;
+}
+
+
+
+#photo_plongée {
+	width: 150px;
+	border : 3px solid rgb(15, 115, 122);
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+
+#shoe_dog {
+	width: 150px;
+	margin-top: 50px;
+}
+
+
+#influence {
+	width: 137px;
+	margin-top: 50px;
+}
+
+#power {
+	width: 145px;
+	margin-top: 50px;
+}
+
+#guitar_video {
+	margin-top: 100px;
+	width: 600px;
+	height: 300px;
+}
+
+
+#palerme {
+	margin-inline: 30px;
+	border: 3px solid;
+}
+
+#vatican {
+	margin-inline: 110px;
+	border: 3px solid;
+}
+
+
+#corée {
+	border: 3px solid;
+}
+
+#sardaigne {
+	border: 3px solid;
+}
+
+#barcelona {
+	border: 3px solid;
+}
+
+#vatican {
+	border: 3px solid;
+}
+
+#cala_gonone {
+	border: 3px solid;
+}
+
+#movie-1 {
+	background-image: url(https://fr.web.img6.acsta.net/pictures/14/09/24/12/08/158828.jpg)
+}
+
+#movie-2 {
+	background-image: url(https://fr.web.img5.acsta.net/medias/nmedia/18/35/24/25/18383433.jpg)
+}
+
+#movie-3 {
+	background-image: url(https://fr.web.img2.acsta.net/img/9a/dd/9adddb249a838d0234446bd63465f36f.jpg)
+}
+
+#movies-intro {
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+
+@media screen and (max-width: 700px) {
+	.container_div {
+		width: 90%;
+	}
+	.row {
+		display: initial;
+	}
+	#guitar_video {
+		width: 400px;
+		height: 200px;
+	}
+	.photo_voyages1 {
+		display: initial;
+	}
+	.photo_voyages2 {
+		display: initial;
+	}
+	.movies-text {
+	font-size: 12px;
+	}
+
+
+}
+
+@media screen and (max-width: 850px) {
+	.container_div {
+		width: 90%;
+	}
+	#guitar_video {
+		width: 400px;
+		height: 200px;
+	}
+	.photo_voyages1 {
+		display: initial;
+	}
+	.photo_voyages2 {
+		display: initial;
+	}
+	.card {
+		height: 1000px;
+	}
+
+
+
+}
+
